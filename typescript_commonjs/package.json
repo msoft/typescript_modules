@@ -1,0 +1,20 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node node_modules/.bin/http-server ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.7.2",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.4"
+  }
+}

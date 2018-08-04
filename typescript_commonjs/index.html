@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Test module Typescript with /// (triple-slash)</title>
+        <script src="node_modules/systemjs/dist/system.js"></script> 
+        <script>
+            // Le code suivant correspond à de la configuration 
+            SystemJS.config({ 
+                meta:{    
+                    format: 'cjs'  // cjs correspond à la configuration pour le format commonjs 
+                },    
+                packages: {
+                "/public": { defaultExtension: "js" }   // pour charger par défaut les fichiers avec l'extension JS
+                }            
+            }); 
+            SystemJS.import('public/index.js');
+        </script> 
+    </head>   
+    <body>            
+
+    </body>
+</html>
