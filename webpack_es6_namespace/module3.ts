@@ -2,13 +2,13 @@
 namespace module3Namespace {
 
     function privateFunc() {
-        console.log("Executed from module3.privateFunc");
+        console.log("Executed from module3.privateFunc()");
     }
 
     export function publicFunc() {
         privateFunc();
 
-        console.log("Executed from module3.publicFunc");
+        console.log("Executed from module3.publicFunc()");
     }
 }
 
